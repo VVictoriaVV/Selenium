@@ -31,4 +31,14 @@ public class PS1 extends PS {
         System.out.println( ps3.miltiplyTwo());
         System.out.println(ps3.divideTwo());
     }
+    public void test3() {
+
+
+        getSmth();//method belongs parent
+
+        PS3 ps3=new PS3(25);
+        int a =25;
+        System.out.println( ps3.miltiplyTwo());
+        System.out.println(ps3.divideTwo());
+    }
 }
